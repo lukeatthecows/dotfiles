@@ -1,0 +1,12 @@
+[submodule "submodules/coc.nvim"]
+	path = submodules/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "submodules/gofmt.vim"]
+	path = submodules/gofmt.vim
+	url = https://github.com/tweekmonster/gofmt.vim.git
+[submodule "submodules/vim-fugitive"]
+	path = submodules/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "submodules/nord-vim"]
+	path = submodules/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git

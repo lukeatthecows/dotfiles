@@ -1,0 +1,1 @@
+../../../../../submodules/gofmt.vim
