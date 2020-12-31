@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
-let g:netrw_dirhist_5='/Users/lklenk'
-let g:netrw_dirhist_4='/Users/lklenk/dotfiles'
-let g:netrw_dirhist_3='/Users/lklenk/dotfiles/alacritty'
-let g:netrw_dirhist_2='/Users/lklenk/dotfiles/alacritty/.config'
-let g:netrw_dirhist_1='/Users/lklenk/dotfiles/alacritty/.config/alacritty'
