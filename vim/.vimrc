@@ -1,24 +1,45 @@
-language en_US.UTF-8
-syntax on
+" VIMRC
 
-set noshowmatch
-set relativenumber
-set nohlsearch
-set hidden
-set noerrorbells
-set tabstop=2 softtabstop=2
+" Environment Variables {{{
+let $RTP=split(&runtimepath, ',')[0]
+let $VIMRC="$HOME/.vim/vimrc"
+let $KP_DIR="$HOME/profile.d/util/vim/keywordprg"
+" }}}
+
+" Basics {{{
+filetype plugin indent on         " Add filetype, plugin, and indent support
+syntax on                         " Turn on syntax highlighting
+language en_US.UTF-8              " Change language to en_US UTF-8
+"}}}
+
+" Settings {{{
+set backspace=indent,eol,start    " Backspace everything in insert mode
+set wildmenu                      " Display matches in command-line mode
+set expandtab                     " Prefer spaces over tabs in general
+set hidden                        " Prefer hiding over unloading buffers
+set wildcharm=<C-z>               " Macro-compatible command-line wildchar
+set path=.,**                     " Relative to current file and everything under :pwd
+setl wildignore=**/node_modules/**,**/dist/**,*.pyc
+set noswapfile                    " Disables swapfiles
+set tags=./tags;,tags;            " Find tags relative to current file and directory
+set t_BE=                         " Disable bracketed paste mode
+set relativenumber                " Enable relative line number
+set noerrorbells                  " Be quiet
+set tabstop=2 softtabstop=2       " set tab to 2 spaces
 set shiftwidth=2
-set expandtab
-set smartindent
-set nu
-set nowrap
-set smartcase
-set noswapfile
-set nobackup
-set incsearch
-set termguicolors
-set scrolloff=4
-set noshowmode
+set smartindent                   " use smartindent
+set scrolloff=3                   " activate line 4 as top/bottom line for zt
+" }}}
+
+
+"set expandtab
+"set nu
+"set nowrap
+"set smartcase
+"set nobackup
+"set incsearch
+"set termguicolors
+"set noshowmode
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
