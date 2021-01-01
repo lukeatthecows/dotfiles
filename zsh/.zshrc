@@ -21,7 +21,7 @@ zstyle ':vcs_info:*' enable git
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr '!'
 zstyle ':vcs_info:*' stagedstr '+'
-zstyle ':vcs_info:*' formats "%{$fg[white]%}[%{$fg[blue]%}%b%{$fg[white]%}] %{$fg[red]%}%u%{$fg[yellow]%}%c%{$fg[blue]%}%m%{$reset_color%}"
+zstyle ':vcs_info:*' formats "%{$fg[white]%}(%{$fg[blue]%}%b%{$fg[white]%}) %{$fg[red]%}%u%{$fg[yellow]%}%c%{$fg[blue]%}%m%{$reset_color%}"
 zstyle ':vcs_info:git*+set-message:*' hooks git-untracked git-st
 #zstyle ':vcs_info:*+*:*' debug true
 
