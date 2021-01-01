@@ -37,6 +37,20 @@ set shortmess+=c									" Don't pass messages to ins-completion-menu
 colorscheme nord                  " Set nord color theme
 " }}}
 
+" Statusline settings {{{
+set laststatus=2
+set statusline=
+set statusline+=%#IncSearch#
+set statusline+=\ %y
+set statusline+=\ %r
+set statusline+=%#CursorLineNr#
+set statusline+=\ %F
+set statusline+=%= "Right side settings
+set statusline+=%#Search#
+set statusline+=\ %l/%L
+set statusline+=\ [%c]
+" }}}
+
 " Vim go (polyglot) settings {{{
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_extra_types = 1

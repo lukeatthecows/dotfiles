@@ -102,4 +102,3 @@ key_bindings:
   - { key: 36,      mods: Command, action: ToggleFullscreen }
   - { key: W,       mods: Command, action: None             }
 
-alt_send_esc: true
