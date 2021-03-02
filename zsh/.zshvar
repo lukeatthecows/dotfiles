@@ -1,0 +1,3 @@
+# zah config file to set som variables
+#
+[ -e ~/bin ] && PATH=$PATH:~/bin
