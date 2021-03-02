@@ -1,0 +1,3 @@
+# zsh alias file to set all alias
+#
+[ -e ~/Documents/Projekte ] && alias cdP="cd ~/Documents/Projekte"
